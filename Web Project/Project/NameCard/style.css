@@ -1,7 +1,7 @@
 *{
     color: #fff;
     font-family: poppins;
-    background: #000;
+    background: #383636;
 }
 .box {
     display: flex;
@@ -9,9 +9,10 @@
     justify-content: center;
     height: 550px;
     width: 400px;
-    margin: 40px;
+    margin: 20px;
     background-image: linear-gradient(45deg, #2C0F12, #711921);
     border-radius: 39px;
+    box-shadow: 0px 0px 20px black;
 }
 .logo{
     display: flex;
@@ -72,6 +73,7 @@
     text-decoration: none;
     background-color: transparent;
     font-size: 24px;
+    text-shadow: 0px 0px 10px black;
 }
 .simbol a:hover{
     font-size: 30px;
