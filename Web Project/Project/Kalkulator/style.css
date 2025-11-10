@@ -1,0 +1,34 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* navbar start */
+a {
+    text-decoration: none;
+}
+navbar {
+    display: flex;
+    justify-content:space-between;
+    font-size: 10px;
+    margin: 10px;
+    font-variant: small-caps;
+}
+navbar .navbar-title {
+    font-size: 20px;
+    color: red;
+}
+navbar .navbar-title i{
+    color:blue;
+}
+navbar .navbar-nav{
+    text-decoration: none;
+}
+/* Navbar end */
+
+/* img start */
+img .foto-1{
+    width: 100px;
+    height: 100px;
+    position: right;
+}
+/* img end */

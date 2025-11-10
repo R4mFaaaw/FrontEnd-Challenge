@@ -1,0 +1,67 @@
+/* CSS1 START */
+.CSS1 {
+    background-color: rgb(213, 212, 212);
+    border: 1px solid;
+}
+    /* Universal Selector */
+.CSS1 *{
+    font-family: Arial, Helvetica, sans-serif;
+}
+    /* Type Selector */
+.CSS1 h2{
+    color: chocolate;
+}
+
+.CSS1 h3{
+    color: darkblue;
+}
+    /* Class Selector */
+.CSS1 .sarapan{
+    color: darkgoldenrod;
+}
+    /* Id Selector */
+.CSS1 #makan2{
+    color: darkgreen;
+}
+
+    /* Child Selector */
+.CSS1 p>b{
+    color: darkred;
+}
+/* p lebih dari b => b anak dari p, jadi di html bahwa di element p terdapat child <b>*/
+.CSS1 li>b{
+    color: darkred;
+}
+
+    /* Decendant Selector */
+.CSS1 p b{
+    color: blueviolet;
+}
+/* CSS1 END */
+
+.css1-code{
+    border: 1px solid;
+}
+
+.html1-code{
+    border: 1px solid;
+}
+
+.navbar h3 {
+    color: blueviolet;
+    font-size: 50px;
+}
+.navbar a { 
+    text-decoration: none;
+    color: red;
+}
+.navbar a:hover{
+    color: yellow;
+}
+
+.navbar a:active{
+    color:green;
+}
+.navabar a::after{
+    color: orangered;
+}

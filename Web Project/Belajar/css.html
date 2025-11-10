@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a href="/AA Projek/index.html">Home</a>
+
+    <!-- Awalan -->
+    <h1>Apa itu CSS?</h1>
+    <p>
+      CSS kepanjangan dari Hyper Text Markup Language<br />
+      CSS merupakan bahasa pemrograman untuk mendesain atau meng-style.
+    </p>
+
+    <hr />
+
+    <h2>Sejarah</h2>
+    <p>CSS blablabla</p>
+
+    <hr />
+
+    <p>CSS dibagi menjadi 3 cara untuk terhubung kedalam html</p>
+    <ol>
+      <li>inline</li>
+      <li>internal</li>
+      <li>eksternal</li>
+    </ol>
+    <br />
+
+    <div class="CSS1">
+      <h2>Ceritaku 1 Minggu</h2>
+      <p><i><b>Hari ini</b></i> aku akan meng-list daftar daftar <b>makan</b> aku</p>
+      <h3>Senin</h3>
+      <ul>
+        <li class="sarapan">Bubur ayam</li>
+        <li id="makan2">Nasi  Goreng</li>
+        <li>Ayam <b>Bakar</b></li>
+      </ul>
+      <h3>Selasa</h3>
+      <ul>
+        <li class="sarapan">Gorengan</li>
+        <li id="makan2">Telur dadar</li>
+        <li>Sate <b>Bakar</b></li>
+      </ul>
+    </div>
+    <p>Ini merupakan kode pemrograman HTML: </p>
+    <pre class="html1-code">
+    &lt;h2&gt;Ceritaku 1 Minggu&lt;/h2&gt;
+      &lt;p&gt;&lt;i&gt;&lt;b&gt;Hari ini&lt;/b&gt;&lt;/i&gt; aku akan meng-list daftar daftar &lt;b&gt;makan&lt;/b&gt; aku&lt;/p&gt;>
+      &lt;h3&gt;Senin&lt;/h3&gt;
+      &lt;ul&gt;
+        &lt;li&gt; class="sarapan">Bubur ayam&lt;/li&gt;
+        &lt;li&gt; id="makan2">Nasi  Goreng&lt;/li&gt;
+        &lt;li&gt;Ayam <b>Bakar</b>&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;h3&gt;Selasa&lt;/h3&gt;
+      &lt;ul&gt;
+        &lt;li&gt; class="sarapan">Gorengan&lt;/li&gt;
+        &lt;li&gt; id="makan2">Telur dadar&lt;/li&gt;
+        &lt;li&gt;>Sate <b>Bakar</b>&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    </pre>
+
+
+
+
+
+    <p>ini merupakan kode pemrograman CSS: </p>
+    <pre class="css1-code">
+        /* Universal Selector */
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Type Selector */
+        h2{
+            color: chocolate;
+        }
+
+        h3{
+            color: darkblue;
+        }
+
+        /* Class Selector */
+        li.sarapan{
+            color: darkgoldenrod;
+        }
+
+        /* Id Selector */
+        #makan2 {
+            color: darkgreen;
+        }
+
+        /* Child Selector */
+        p>b { 
+            color: darkred;
+        }
+
+        li>b {
+            color: darkred;
+        }
+
+        /* Decendant Selector */
+        p b{
+            color: blueviolet;
+        }
+    </pre>
+    <br><br>
+    <h2>CSS-Font<br></h2>
+    <p>
+    Di CSS terdapat di declaration yaitu property dan value<br>
+    Property adalah nama dari atribut yang akan diubah, sedangkan value adalah nilai dari atribut<br>
+    Berikut adalah contoh dari CSS-Font: 
+    <ul>
+      <li>Font-Family
+        <ol>Mengatur Jenis Font
+          <li>nama font</li>
+          <li>generic family</li>
+        </ol>
+      </li><br>
+      <li>Font-Size
+        <ol>Mengatur Ukuran Font
+          <li>px</li>
+          <li>em</li>
+          <li>%</li>
+        </ol>
+      </li><br>
+      <li>Font-Weight
+        <ol>Mengukur Ketebalan Font
+          <li>lighter</li>
+          <li>normal</li>
+          <li>100-900</li>
+          <li>bold</li>
+          <li>bolder</li>
+        </ol>
+      </li><br>
+      <li>Font-Variant
+        <ol>Mengubah Font menjadi <i>small caps</i>
+        <li>normal</li>
+        <li>small-caps</li>
+        </ol>
+      </li><br>
+      <li>Font-Style
+        <ol>Mengubah Font Menjadi Bercetak Miring
+          <li>normal</li>
+          <li>italic</li>
+          <li>oblique</li>
+        </ol>
+      </li>
+      <li>Line-Height
+        <ol>Mengatur Spasi Antar Baris
+          <li>normal</li>
+          <li>px</li>
+          <li>em</li>
+        </ol>
+      </li>
+    </ul>
+    </p><br>
+    <pre>bisa di singkat menjadi:
+      berawal dari 6 baris:
+
+      body {
+        font-style: italic;
+        font-variant: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 18px;
+        font-family: helvetica, arial, sans-serif;
+      }
+
+      menjadi 1 baris:
+      body {
+        font: italic normal bold 16px/18px helvetica, arial, sans-serif;
+      }
+      urutan harus sesuai mulai dari:
+      1. font-style
+      2. font-variant
+      3. font-weight
+      4. font-size 
+      5. line-height
+      6. font-family
+    </pre>
+
+    <!-- CSS TEXT -->
+    <h2>CSS-Text<br></h2>
+    <ul>
+      <li>color
+        <ol>  Memberi Warna Pada Tulisan
+          <li>Name Color</li>
+          <li>Hexadex</li>
+          <li>rgb</li>
+        </ol>
+      </li><br>
+      <li>Text-Align
+        <ol>Mengatur Format Paragraf/Text
+          <li>Left</li>
+          <li>Right</li>
+          <li>Center</li>
+          <li>Justify</li>
+        </ol>
+      </li><br>
+      <li>Text-Indent
+        <ol>Memberi Indentasi Pada Paragraf/Text
+          <li>px</li>
+          <li>em</li>
+          <li>%</li>
+        </ol>
+      </li><br>
+      <li>Text-Decoration
+        <ol>Mengatur Dekorasi Pada Text</i>
+        <li>none</li>
+        <li>underline</li>
+        <li>overline</li>
+        <li>line-through</li>
+      </ol>
+      </li><br>
+      <li>Text-Transform
+        <ol>Mengubah Jenis Huruf Menjadi Huruf Besar, Kecil/Kapital
+          <li>none</li>
+          <li>capitalize</li>
+          <li>uppercase</li>
+          <li>lowercase</li>
+        </ol>
+      </li><br>
+      <li>Letter-Spacing
+        <ol>Mengatur Spasi Antar Huruf
+          <li>normal</li>
+          <li>px</li>
+        </ol>
+      </li><br>
+      <li>Word-Spacing
+        <ol>Mengatur Spasi Antar Kata
+          <li>normal</li>
+          <li>px</li>
+        </ol>
+      </li>
+    </ul>
+    
+
+    <!-- Background Color -->
+    <h2>CSS-Background<br></h2>
+    <ul>
+      <li>Background-color
+        <ol>  Mengatur warna pada background
+          <li>Name Color</li>
+          <li>Hexadex</li>
+          <li>rgb</li>
+        </ol>
+      </li><br>
+      <li>Background-image
+        <ol>Mengatur gambar yang akan digunakan pada background
+          <li>url(nama gambar)</li>
+        </ol>
+      </li><br>
+      <li>Background-position
+        <ol>Mengatur posisi gambar pada background
+          <li>sumbu y: top/center/bottom</li>
+          <li>sumbu x: left/center/right</li>
+          <li>top left</li>
+          <li>top center</li>
+          <li>top right</li>
+          <li>center left</li>
+          <li>center center</li>
+          <li>center right</li>
+          <li>bottom left</li>
+          <li>bottom center</li>
+          <li>bottom right</li>
+          <li>x% y%</li>
+          <li>x-pos y-pos</li>
+        </ol>
+      </li><br>
+      <li>Background-repeat
+        <ol>Mengatur jenis pengulangan gambar pada background
+        <li>repeat-x</li>
+        <li>repeat-y</li>
+        <li>no-repeat</li>
+
+      </ol>
+      </li><br>
+    </ul>
+    <pre>bisa di singkat menjadi:
+
+      background: color url() position repeat;
+    </pre>
+
+    <h2>CSS-Selector</h2>
+    <p> digunakan pada css untuk mengenali elemen HTML untuk di style</p>
+    <ul>Selector
+      <li>elemen HTML</li>
+      <li>id
+        <ol>
+          <li>
+            Sebuah elemen HTML hanya boleh memiliki 1 ID
+        </li>
+        <li>Setiap halaman hanya boleh memiliki 1 elemen dengan id tersebut</li>
+        <li>Dapat digunakan sebagai penanda halaman untuk link</li>
+        <li>Digunakan juga untuk javascript</li>
+        <li>Sebaiknya tidak digunakan untuk CSS (lebih baik gunakan class)</li>
+      </ol>
+      </li>
+      <li>class</li>
+      <li>complex selector</li>
+    </ul>
+    <pre>
+      ini macam-macam seperator
+      h1,h2{
+        color: blue;
+      }
+      ul li a {
+        color: red;
+      }
+
+      untuk class itu cara panggilnya menggunakan (.) misal class="p1"
+      .p1{
+        color: blue;
+      }
+      untuk id itu cara panggilnya menggunakan (#) misal id="p2"
+      #p2{
+        color: red;
+      }
+    </pre>
+    <h2>CSS-Pseudo-class</h2>
+    <p>kelas semu yang dimiliki ole sebuah elemen HTML, yang membuat kita dapat mendefinisikan style pada "keadaan tertentu" dari elemen tersebut.
+      <br> Pseudo-class yang berhubungan dengan link
+    </p>
+    <ul>
+      <li>:link
+        <ol>style default pada sebuah link (a yang memiliki href)</ol>
+      </li>
+      <li>:hover
+        <ol>style ketika kursor mouse berada diatas sebuah link / elemen</ol>
+      </li>
+      <li>:active
+        <ol>style ketika sebuah link di-klik(keadaan aktif)</ol>
+      </li>
+      <li>:visited
+        <ol>style ketika sebuah link sudah pernah dikunjungi sebelumnya (menggunakan browser yang sama)</ol>
+      </li>
+      <li>first-child
+        <ol>memilih elemen <b>pertama</b> dari sebuah parent (elemen pembungkusnya)</ol>
+      </li>
+      <li>:last-child
+        <ol>memilih elemen <b>terakhir</b> dari sebuah parent (elemen pembungkusnya)</ol>
+      </li>
+      <li>:nth-child(n)
+        <ol>memilih elemen ke-n dari sebuah parent (elemen pembungkusnya)<br>
+        n bisa berarti urutan (1),(2), ... atau pola (2n), (3n+2), (4n-1) atau ganjil dan genap (even) & (odd)</ol>
+      </li>
+    </ul>
+    <pre>li:first-child p{
+      color: blue;
+    }
+    jadi elemen pertama dari list item akan berwarna biru
+     dalam artian tolong carikan saya dari elemen li anak pertama dari a
+    tolong ubah warnanya menjadi biru
+
+    dan untuk nth-child kalian isi dari urutan a yang banyak pada li, 
+    ingin anak keberapa yang kalian rubah
+    jika ingin kelipatan 3 maka (3n) dan jika ingin mulai kelipatan 3
+     dari satu tulis saja dengan (3n+1) atau (3n-2)
+     (even) untuk genap, (odd) untuk ganjil
+  </pre>
+  <ul>
+    <li>:first-of-type
+      <ol>memilih elemen pertama dari sebuah jenis elemen tertentu / tipe tag</ol>
+    </li>
+    <li>last-of-type
+      <ol>memilih elemen terakhir dari sebuah jenis / tipe tag</ol>
+    </li>
+  </ul>
+  <h2>CSS-Inheritance</h2>
+  <p>sebuah elemen mewarisi <b>beberapa</b> nilai dari properti yang dimiliki oleh element parent-nya</p>
+  <ul>
+    <li>color</li>
+    <li>font</li>
+    <li>letter-spacing</li>
+    <li>line-height</li>
+    <li>list-style</li>
+    <li>text-align</li>
+    <li>text-indent</li>
+    <li>text-transform</li>
+    <li>visibility</li>
+    <li>white-space</li>
+  </ul>
+  <pre>jadi bila tag body melakukan intruksi color green
+    agar semua elemen di dalamnya warna grey terkecuali a, karena tag a itu menolak Color
+    maka caranya intruksikan di bawah body dengana{
+      color: inherit;
+    }
+    artinya a mengikut ke body
+  </pre><br>
+  <h2>CSS-Specifity</h2>
+  <p>setiap deklarasi css (selector) memiliki <b>berat</b> yang berbeda. Berat tersebut menentukan seberapa spesifik sebuah elemen dapat dipilih oleh selector<br>
+  id lebih spesifik dari element lain</p>
+  <ul>ini urutan yang di prioritaskan
+    <li>inline</li>
+    <li>id</li>
+    <li>class</li>
+    <li>element</li>
+  </ul>
+  <h2>CSS-display</h2>
+  <img src="/Web Project/Foto/css display.png" alt="Gambar CSS Diplay">
+  <p>tag pada HTML digunakan untuk memberikan 'maksud' / 'arti pada sebuah konten <b>(p untuk paragraf, h1 unutk heading utama, dll)</b><br>
+  tag div> dan span> tidak memiliki 'arti' apapun, keduanya digunakan untuk mengelompokkan tag-tag HTML dan memberikan infoemasi terhadap tag-tag tersebut.<br>
+  setiap tag pada HTML berada di dalam sebuah <b>kotak.</b> prperti <b>display</b> pada CSS mengatur perilaku dari kotak tersebut.<br>
+  setiap tag pada HTML memiliki nilai default untuk properti <b>display.</b> Tetapi kita juga dapat mengubah prilaku dari tag tersebut dengan mengganti value-nya</p>
+  <ul>
+    <li>div
+      <ol><li>display defaultnya  display: block;</li></ol>
+    </li>
+    <li>span
+      <ol><li>display defaultnya  display: inline;</li></ol>
+    </li>
+    <li>display
+      <ol>
+        <li>inline
+          <ul>
+            <li>Elemen HTML yang secara default tidak menambahkan baris baru ketika dibuat</li>
+            <li>Lebar dan tinggi elemennya sebesar konten yang ada di dalamnya</li>
+            <li>Kita tidak dapat mengatur tinggi dan lebar dari elemen inline(hanya elemen image saja yang bisa di rubah)</li>
+            <li>Margin dan padding hanya mempengaruhi elemen secara horizontal, tidak vertikal</li>
+            <li>elemen inline: b, strong, i, em, a, span, sub, sup, button, input, label, select, textarea, ...</li>
+          </ul>
+        </li>
+        <li>inline-block
+          <ul>
+            <li>Tidak ada elemen yang secara default memiliki properti display: inline-block;</li>
+            <li>Kita harus ubah secara manual properti tersebut</li>
+            <li>Perilaku dasarnya sama dengan elemen inline</li>
+            <li>Perbedaannya, elemen inline-block dapat kita atur tinggi dan lebar-nya</li>
+          </ul>
+        </li>
+        <li>block
+          <ul>
+            <li>Elemen HTML yang secara default menambahkan baris baru ketika dibuat</li>
+            <li>Jika tidak diatur lebar-nya, maka lebar default dari elemen block akan memenuhi lebar dari browser / parent-nya</li>
+            <li>Kita dapat mengatur tinggi dan lebar dari elemen block</li>
+            <li>Di dalam elemen block, kita dapat menyimpan tag dengan elemen inline, inline-block, atau bahkan elemen block lagi</li>
+            <li>elemen block: h1-h6, p, ol, ul, li, form, hr, div, ...</li>
+          </ul>
+        </li>
+        <li>none</li>
+      </ol>
+    </li>
+  </ul>
+
+
+
+  </body>
+</html>
