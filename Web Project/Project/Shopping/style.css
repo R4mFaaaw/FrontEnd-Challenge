@@ -28,7 +28,7 @@
     position: relative;
     right: 5px;
     font-size: 20px;
-    color: #0f0e0e;
+    color: #d39d09;
 }
 .navbar .logo b{
     background-color: transparent;
@@ -43,14 +43,14 @@
 .navbar .search{
     position: relative;
     margin: 2px 0px;
-    right: 25px;
+    right: 70px;
 }
 .navbar .search input{
     border: 1px solid #fff;
     padding:5px;
     box-shadow: 2px 2px 5px #000;
     border-radius: 20px;
-    width: 300px;
+    width: 335px;
     height: 37px;
     position: absolute;
     margin: auto 0;
@@ -64,7 +64,7 @@
    text-align: right;
    font-size: 20px;
    margin: auto 0;
-   left: 257px;
+   left: 292px;
    cursor: pointer;
 }
 .navbar .menu{
@@ -72,14 +72,70 @@
     position: relative;
     justify-content: space-around;
     background-color: transparent;
-    width: 300px;
+    width: 400px;
     left: 90px;
     font-size: 13px;
+    margin: 8px 0px 4px 0px;
 }
 .navbar .menu a{
         text-decoration: none;
+        background-color: transparent;
 }
-.footer{
+.navbar .menu button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.navbar .menu a:hover{
+        display: block;
+        text-decoration: underline;
+        background-color: transparent;
+        border-radius: 60px;
+        border: 1px solid #000;
+        width: 80px;
+        text-align: center;
+
+}
+.container{
+    display: flex;
+    position: static;
+    max-width: 100%;
+    min-width: 420px;
+    max-height: 100%;
+    min-height: 420px;
+    justify-self: right;
+    justify-content: right;
+    padding-left: 50px;
+    background-color: #b2b1b1;
+    margin-top: 80px;
+}
+.container p{
+    position: relative;
+    right: 270px;
+    width: 100%;
+    text-align: left;
+    font-size: 23px;
+}
+.container button{
+    position: relative;
+    background-color: transparent;
+    border: none;
+    right: 40px;
+    bottom: 38px;
+}
+.container .star{
+    display: flex;
+    justify-content: baseline;
+    position: relative;
+    bottom: 40px;
+    right: 5px;
+}
+.container .star p{
     position: absolute;
-    min-height: 200px;
+    font-size: 20px;
+    max-width: 100%;
+    min-width: 50px;
+    justify-self: right;
+    justify-content: right;
+    word-spacing: 10px;
 }
