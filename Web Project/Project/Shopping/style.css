@@ -1,141 +1,141 @@
-*{
-    font-family: poppins;
-    margin: 5px;
-    color: #000;
+* {
+  font-family: poppins;
+  margin: 5px;
+  color: #000;
 }
-.navbar{
-    display: flex;
-    position: relative;
-    justify-content: space-around;
-    max-width: 100%;
-    background-color: transparent;
-    padding: 5px;
-    box-shadow: 1px 1px 2px #000;
+.navbar {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  max-width: 100%;
+  background-color: transparent;
+  padding: 5px;
+  box-shadow: 1px 1px 2px #000;
 }
-.navbar .logo{
-    position: relative;
-    margin: 8px 0px 4px 0px;
-    right: 40px;
-    text-shadow: 1px 1px 7px #b2b1b1;
+.navbar .logo {
+  position: relative;
+  margin: 8px 0px 4px 0px;
+  right: 40px;
+  text-shadow: 1px 1px 7px #b2b1b1;
 }
-.navbar .logo .navbar-logo{
-    text-decoration: none;
+.navbar .logo .navbar-logo {
+  text-decoration: none;
 }
-.navbar .logo .navbar-logo b{
-    color:#2a2a2a;
+.navbar .logo .navbar-logo b {
+  color: #2a2a2a;
 }
-.navbar .logo .navbar-logo span{
-    position: relative;
-    right: 5px;
-    font-size: 20px;
-    color: #d39d09;
+.navbar .logo .navbar-logo span {
+  position: relative;
+  right: 5px;
+  font-size: 20px;
+  color: #d39d09;
 }
-.navbar .logo b{
-    background-color: transparent;
-    padding: 10px;
-    position: relative;
-    margin-left: 0px;
-    width: 100px;
-    margin-top: -4px;
-    margin-left: 0px;
-    font-size: 18px;
+.navbar .logo b {
+  background-color: transparent;
+  padding: 10px;
+  position: relative;
+  margin-left: 0px;
+  width: 100px;
+  margin-top: -4px;
+  margin-left: 0px;
+  font-size: 18px;
 }
-.navbar .search{
-    position: relative;
-    margin: 2px 0px;
-    right: 70px;
+.navbar .search {
+  position: relative;
+  margin: 2px 0px;
+  right: 70px;
 }
-.navbar .search input{
-    border: 1px solid #fff;
-    padding:5px;
-    box-shadow: 2px 2px 5px #000;
-    border-radius: 20px;
-    width: 335px;
-    height: 37px;
-    position: absolute;
-    margin: auto 0;
+.navbar .search input {
+  border: 1px solid #fff;
+  padding: 5px;
+  box-shadow: 2px 2px 5px #000;
+  border-radius: 20px;
+  width: 335px;
+  height: 37px;
+  position: absolute;
+  margin: auto 0;
 }
-.navbar .search button{
-   position: absolute;
-   background-color: transparent;
-   border: none;
-   padding: 8px 10px 0 0;
-   width: 30px;
-   text-align: right;
-   font-size: 20px;
-   margin: auto 0;
-   left: 292px;
-   cursor: pointer;
+.navbar .search button {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  padding: 8px 10px 0 0;
+  width: 30px;
+  text-align: right;
+  font-size: 20px;
+  margin: auto 0;
+  left: 292px;
+  cursor: pointer;
 }
-.navbar .menu{
-    display: flex;
-    position: relative;
-    justify-content: space-around;
-    background-color: transparent;
-    width: 400px;
-    left: 90px;
-    font-size: 13px;
-    margin: 8px 0px 4px 0px;
+.navbar .menu {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  background-color: transparent;
+  width: 400px;
+  left: 90px;
+  font-size: 13px;
+  margin: 8px 0px 4px 0px;
 }
-.navbar .menu a{
-        text-decoration: none;
-        background-color: transparent;
+.navbar .menu a {
+  text-decoration: none;
+  background-color: transparent;
 }
-.navbar .menu button{
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
+.navbar .menu button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
-.navbar .menu a:hover{
-        display: block;
-        text-decoration: underline;
-        background-color: transparent;
-        border-radius: 60px;
-        border: 1px solid #000;
-        width: 80px;
-        text-align: center;
-
+.navbar .menu a:hover {
+  display: block;
+  text-decoration: underline;
+  background-color: transparent;
+  border-radius: 60px;
+  border: 1px solid #000;
+  width: 80px;
+  text-align: center;
 }
-.container{
-    display: flex;
-    position: static;
-    max-width: 100%;
-    min-width: 420px;
-    max-height: 100%;
-    min-height: 420px;
-    justify-self: right;
-    justify-content: right;
-    padding-left: 50px;
-    background-color: #b2b1b1;
-    margin-top: 80px;
+.container {
+  display: flex;
+  position: static;
+  max-width: 100%;
+  min-width: 420px;
+  max-height: 100%;
+  min-height: 420px;
+  justify-self: right;
+  justify-content: right;
+  padding-left: 50px;
+  background-color: transparent;
+  margin-top: 80px;
 }
-.container p{
-    position: relative;
-    right: 270px;
-    width: 100%;
-    text-align: left;
-    font-size: 23px;
+.container p {
+  position: relative;
+  right: 270px;
+  width: 100%;
+  text-align: left;
+  font-size: 23px;
 }
-.container button{
-    position: relative;
-    background-color: transparent;
-    border: none;
-    right: 40px;
-    bottom: 38px;
+.container button {
+  position: relative;
+  background-color: transparent;
+  border: none;
+  right: 40px;
+  bottom: 38px;
 }
-.container .star{
-    display: flex;
-    justify-content: baseline;
-    position: relative;
-    bottom: 40px;
-    right: 5px;
+.container .star {
+  display: flex;
+  position: relative;
+  justify-content: baseline;
+  position: relative;
+  bottom: 40px;
+  right: 5px;
 }
-.container .star p{
-    position: absolute;
-    font-size: 20px;
-    max-width: 100%;
-    min-width: 50px;
-    justify-self: right;
-    justify-content: right;
-    word-spacing: 10px;
+.container .description {
+  position: absolute;
+  font-size: 12px;
+  width: 370px;
+  height: 200px;
+  margin-right: 100px;
+  text-align: justify;
+  right: 10px;
 }
