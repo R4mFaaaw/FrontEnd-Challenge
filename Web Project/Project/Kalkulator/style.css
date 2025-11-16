@@ -1,34 +1,61 @@
-* {
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+.container{
+    top: 7em;
+    margin: auto 0px auto 0px;
+    width: 100%;
+    position: relative;
+    justify-content: center;
 }
-
-/* navbar start */
-a {
-    text-decoration: none;
-}
-navbar {
+.container1{
     display: flex;
-    justify-content:space-between;
-    font-size: 10px;
-    margin: 10px;
-    font-variant: small-caps;
+    justify-content: space-around;
+    text-align: center;
+    max-width: 200px;
+    margin: 5px;
+    padding: 3px;
 }
-navbar .navbar-title {
-    font-size: 20px;
-    color: red;
+.container1 .baris1{
+    position: relative;
+    padding: 17px;
+    text-align: center;
 }
-navbar .navbar-title i{
-    color:blue;
-}
-navbar .navbar-nav{
-    text-decoration: none;
-}
-/* Navbar end */
 
-/* img start */
-img .foto-1{
-    width: 100px;
-    height: 100px;
-    position: right;
+.container2{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    max-width: 200px;
+    margin: 5px;
+    padding: 3px;
 }
-/* img end */
+.container2 .baris2{
+    position: relative;
+    padding: 17px;
+    text-align: center;
+}
+.container3{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    max-width: 200px;
+    margin: 5px;
+    padding: 3px;
+}
+.container3 .baris3{
+    position: relative;
+    padding: 17px;
+    text-align: center;
+}
+.container4{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    max-width: 200px;
+    margin: 5px;
+    padding: 3px;
+
+}
+.container4 .baris4{
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
