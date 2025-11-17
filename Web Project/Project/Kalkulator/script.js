@@ -3,5 +3,3 @@ let btn8 = document.getElementById("8");
 let btn7 = document.getElementById("7");
 let output = document.getElementById("Output");
 
-output = btn9.onclick().function()
-    output = 9;
