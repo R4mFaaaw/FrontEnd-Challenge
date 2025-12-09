@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Daspro - RafaWeb</title>
+  </head>
+  <body>
+    <h1>RPL117 - DASAR PEMROGRAMAN(1A)</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, deserunt
+      ipsum, fugit fuga, eius eligendi cumque sint a minima dolorem distinctio
+      rem id at totam nesciunt consequuntur repudiandae aperiam nisi!
+    </p>
+    <h3>PENGANTAR PYTHON DAN TIPE DATA</h3>
+
+    <h5>Pengenalan Python</h5>
+    <ul>
+      <li>
+        Python merupakan bahasa pemograman yang dibuat oleh Guido van Rossum
+        pada tahun 1991.
+      </li>
+      <li>
+        Saat ini, Python dikelola oleh lembaga non-komersial Python Software
+        Foundation (PSF).
+      </li>
+      <li>
+        Python memiliki kemampuan dalam penanganan masalah dan mengutamakan
+        sintaks yang mudah dimengerti dan dibaca (readability).
+      </li>
+      <li>
+        Python mengadopsi dynamic typing secara opsional, artinya dalam membuat
+        variable tidak perlu deklarasi tipe variabelnya walaupun bisa dilakukan.
+      </li>
+      <li>
+        Sejak versi ke 3.6, Python sudah tersedia pilihan untuk static typing.
+      </li>
+      <li>
+        Zen of Python merupakan salah satu patokan dalam pengembangan Python.
+      </li>
+    </ul>
+
+    <h5>Keunggulan Python</h5>
+    <ul>
+      <li>Python merupakan bahasa pemograman yang memiliki banyak pengguna.</li>
+      <li>Python merupakan bahasa pemograman yang memiliki banyak pengguna.</li>
+      <li>Python merupakan bahasa pemograman yang memiliki banyak pengguna.</li>
+      <li>
+        Memiliki dukungan komunikasi dan memiliki repository library dan modul
+        yang open source.
+      </li>
+      <li>
+        Menyediakan library yang dapat digunakan seperti unit testing, regular
+        expression, databases, dll.
+      </li>
+      <li>
+        Python Package Index (PIP) memiliki lebih dari 209.000 modul yang dapat
+        diinstal dan digunakan di Python.
+      </li>
+      <li>
+        Python merupakan salah satu Bahasa pilihan untuk masuk ke
+        <i>data science</i>
+      </li>
+      <li>
+        Beberapa pemanfaatan Bahasa pemograman Python:
+        <ol>
+          <li>Pengembangan software (<i>Software development</i>)</li>
+          <li>Aplikasi website (<i>server-side</i>)</li>
+          <li>Matematika dan ilmu data (<i>data science</i>)</li>
+          <li>Machine Learning (ML)</li>
+          <li>Internet of Things (IoT)</li>
+        </ol>
+      </li>
+    </ul>
+
+    <h5>Sintax Dasar: Print</h5>
+    <ul>
+      <li>
+        Dalam pemograman Python tidak diperlukan titik koma (;) di akhir kode
+      </li>
+      <li>
+        Perintah print() strings dalam Python dilakukan dengan menggunakan kutip
+        satu atau dua.
+      </li>
+      <pre>
+        Input:
+        print("Hello, World!")
+        print('Hello, World!')
+        Output:
+        Hello, World!
+        Hello, World!
+      </pre>
+      <li>
+        Operator aritmatika dapat dilakukan di perintah print() untuk strings.
+      </li>
+      <pre>
+        Input:
+        print("Hello" * 3)
+        Output:
+        HelloHelloHello
+      </pre>
+      <li>
+        Perintah print() juga dapat melakukan aritmatika sederhana untuk nilai
+        numeric
+      </li>
+      <pre>
+        Input:
+        print(1+1)
+        print(10-3)
+        print(2*6)
+        print(10/5)
+        Output:
+        2
+        7
+        12
+        2.0
+      </pre>
+    </ul>
+    <h5>Sintax Dasar: Comment</h5>
+    <p>
+      Comment dapat digunakan untuk menjelaskan kode Python, membuat kode lebih
+      mudah dibaca dan untuk mencegah kode dieksekusi saat sedang menguji kode.
+    </p>
+    <pre>
+        <i># Ini adalah komentar</i>
+        print("Hello, Everyone!")
+    </pre>
+    <h5>Sintax Dasar: Multi Line Comment</h5>
+    <p>
+      Untuk menulis komentar lebih dari satu baris, dapat menggunakan tiga buah
+      kutip dua (“) seperti gambar di bawah ini.
+    </p>
+    <pre>
+        """
+        print("Ini tidak akan di eksekusi")
+        print('Ini juga tidak akan di eksekusi')
+        """
+    </pre>
+    <h5>QUIZ</h5>
+    <ol>
+      <li>
+        Bahasa pemograman Python mewajibkan titik koma (;) di akhir kode <br />
+        <ul style="list-style-type: lower-alpha">
+          <li>Benar</li>
+          <li>Salah</li>
+        </ul>
+      </li>
+      <li>
+        Apa output dari kode print("Hello, World!" * 2)
+        <ul style="list-style-type: lower-alpha">
+          <li>Error</li>
+          <li>Hello,World</li>
+          <li>Hello,World!Hello, World!</li>
+          <li>Hello,World! Hello, World!</li>
+        </ul>
+      </li>
+    </ol>
+
+    <h5>Variable</h5>
+    <ul>
+      <li>
+        Variabel adalah tempat penyimpanan data yang nilainya dapat berubah
+        (mutable)
+      </li>
+      <li>
+        Tidak perlu mendeklarasikan tipe datanya (walaupun bisa dilakukan)
+      </li>
+    </ul>
+    <pre>
+      Input:
+      a = "Hello" <i># Ini adalah String</i>
+      print(a)
+      b = 20 <i># Ini adalah Integer</i>
+      print(b)
+      Output:
+      Hello
+      20
+    </pre>
+    <p>Ada beberapa aturan memberi nama variable di Python, antara lain:</p>
+    <ul>
+      Nama variable harus dimulai dengan huruf atau underscore, tidak bisa
+      dimulai dengan angka
+    </ul>
+    <ul>
+      Nama variable hanya dapat mengandung huruf, angka, dan underscore (A-z,
+      0-9, dan _)
+    </ul>
+    <ul>
+      Nama variable bersifat case-sensitive (contoh: nama, Nama, dan NAMA
+      masing- masing merupakan variable yang berbeda)
+    </ul>
+    <ul>
+      Tidak boleh ada spasi dalam nama variable
+    </ul>
+  </body>
+</html>
