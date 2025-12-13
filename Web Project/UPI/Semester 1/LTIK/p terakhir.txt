@@ -1,0 +1,26 @@
+Pengenalan Multimedia dan game
+
+dasar Multimedia
+komponen mm dann app 
+konsep dasar pengembamgan game
+kenal hardware
+
+multimedia adalah teknologi yang menggabungkan berbagai jenis media untuk menyampaikan informasi secara interaktif dan dnamis
+multi yang berarti banyak dan media berarti saluran atau alat untuk menyalurkan informasimedia teks,gambar, audio, video dan animasi
+teks: informasi berbasis karakter
+gambar, visual statis
+audio elemen saluran
+video rekam gerak dan gambar yang memberikan pengalaman visual
+animasi gambar bergerak yang di ciptakan secara digital
+
+multimedia digunakan dalam berbagai bidang seperti pendidikan, bisnis, hiburan, seni dan komunikasi.
+
+interaktif: bisa berinteraksi dengan konten tersebut bisa memberikan action kepada kontennya, mengklik tombol, mengisi formulir
+multisensor: menggunakan elemen visual dan audio untuk menciptakan pengalaman yang kaya dan mendalam
+terintegrasi: menggabungkan berbagai jenis media dalam satu platform atau aplikasi untuk memberikan informasi secara holistik
+
+Evolusi dari media tradisional ke media digital
+media tradisional: surat kabar buku radio televisi
+pengaruh perkembangan teknologi komputer dan internet
+komputer pribadi (perangkat lunak multimedia, kapasitas penyimpanan)
+Internet(Penyebaran informasi, Streaming Media)
